@@ -142,6 +142,3 @@ The goal of EduPredictAI is to combine mobile technology, machine learning, and 
 
 GitHub: [@Charmi2007](https://github.com/Charmi2007)
 
-## 📄 License
-
-A license can be added if you decide how you want others to use, modify, and distribute this project.
