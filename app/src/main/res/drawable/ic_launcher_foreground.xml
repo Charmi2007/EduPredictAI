@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Graduation Cap Top Diamond (White with subtle gradient) -->
+    <path android:pathData="M54,32 L78,43 L54,54 L30,43 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="30"
+                android:startY="32"
+                android:endX="78"
+                android:endY="54"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="1.0" android:color="#E0E7FF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Graduation Cap Skull Band -->
+    <path
+        android:pathData="M39,47.2 L39,59 C39,64 45.7,68 54,68 C62.3,68 69,64 69,59 L69,47.2 L54,54 Z"
+        android:fillColor="#C7D2FE" />
+
+    <!-- Cap Tassel Ribbon and Bobble (Golden) -->
+    <path
+        android:pathData="M48,46 L34,55 L34,64"
+        android:strokeWidth="2"
+        android:strokeColor="#FFB300"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M32.5,64 L35.5,64 L35,68 L33,68 Z"
+        android:fillColor="#FFC107" />
+
+    <!-- AI Neural Network Circuit Nodes below & around the cap -->
+    <!-- Center AI Core Node -->
+    <path
+        android:pathData="M54,76 A3.5,3.5 0 1,0 54,83 A3.5,3.5 0 1,0 54,76"
+        android:fillColor="#00E5FF" />
+    <!-- Left AI Node -->
+    <path
+        android:pathData="M38,72 A2.5,2.5 0 1,0 38,77 A2.5,2.5 0 1,0 38,72"
+        android:fillColor="#38BDF8" />
+    <!-- Right AI Node -->
+    <path
+        android:pathData="M70,72 A2.5,2.5 0 1,0 70,77 A2.5,2.5 0 1,0 70,72"
+        android:fillColor="#38BDF8" />
+
+    <!-- Bottom Left Node -->
+    <path
+        android:pathData="M44,87 A2,2 0 1,0 44,91 A2,2 0 1,0 44,87"
+        android:fillColor="#818CF8" />
+    <!-- Bottom Right Node -->
+    <path
+        android:pathData="M64,87 A2,2 0 1,0 64,91 A2,2 0 1,0 64,87"
+        android:fillColor="#818CF8" />
+
+    <!-- Circuit Connecting Lines -->
+    <path
+        android:pathData="M54,68 L54,76 M38,74.5 L51,78 M70,74.5 L57,78 M52.5,82 L45,87.5 M55.5,82 L63,87.5 M45.5,89 L62.5,89"
+        android:strokeWidth="1.2"
+        android:strokeColor="#8000E5FF"
+        android:strokeLineCap="round" />
+
+    <!-- AI Sparkle / Excellence Star (Top Right) -->
+    <path
+        android:pathData="M73,31 L74.2,34.5 L77.5,35.7 L74.2,36.9 L73,40.4 L71.8,36.9 L68.5,35.7 L71.8,34.5 Z"
+        android:fillColor="#FFD54F" />
+</vector>

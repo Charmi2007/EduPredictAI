@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Glowing Background Circle for high contrast and elegance -->
+    <path android:pathData="M60,8 A52,52 0 1,0 60,112 A52,52 0 1,0 60,8">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="15"
+                android:startY="15"
+                android:endX="105"
+                android:endY="105"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#1A237E" />
+                <item android:offset="0.7" android:color="#283593" />
+                <item android:offset="1.0" android:color="#0D165A" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Decorative Tech Ring -->
+    <path
+        android:pathData="M60,14 A46,46 0 1,0 60,106 A46,46 0 1,0 60,14"
+        android:strokeWidth="1.5"
+        android:strokeColor="#2500E5FF" />
+
+    <!-- Academic Graduation Cap Top Diamond -->
+    <path android:pathData="M60,33 L92,47 L60,61 L28,47 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="28"
+                android:startY="33"
+                android:endX="92"
+                android:endY="61"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FFFFFF" />
+                <item android:offset="0.7" android:color="#F0F4FF" />
+                <item android:offset="1.0" android:color="#D9E2EC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Cap Skull Base -->
+    <path
+        android:pathData="M40,53 L40,68 C40,74 49,79 60,79 C71,79 80,74 80,68 L80,53 L60,61 Z"
+        android:fillColor="#C7D2FE" />
+
+    <!-- Cap Golden Tassel & Pendant -->
+    <path
+        android:pathData="M52,52 L34,63 L34,74"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFB300"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M32,74 L36,74 L35.5,79 L32.5,79 Z"
+        android:fillColor="#FFC107" />
+
+    <!-- AI Neural Network Circuit Nodes below Cap -->
+    <!-- Central AI Brain Core Node -->
+    <path
+        android:pathData="M60,86 A4,4 0 1,0 60,94 A4,4 0 1,0 60,86"
+        android:fillColor="#00E5FF" />
+    <!-- Left AI Node -->
+    <path
+        android:pathData="M42,82 A3,3 0 1,0 42,88 A3,3 0 1,0 42,82"
+        android:fillColor="#38BDF8" />
+    <!-- Right AI Node -->
+    <path
+        android:pathData="M78,82 A3,3 0 1,0 78,88 A3,3 0 1,0 78,82"
+        android:fillColor="#38BDF8" />
+    <!-- Bottom Left Synapse Node -->
+    <path
+        android:pathData="M48,99 A2.5,2.5 0 1,0 48,104 A2.5,2.5 0 1,0 48,99"
+        android:fillColor="#818CF8" />
+    <!-- Bottom Right Synapse Node -->
+    <path
+        android:pathData="M72,99 A2.5,2.5 0 1,0 72,104 A2.5,2.5 0 1,0 72,99"
+        android:fillColor="#818CF8" />
+
+    <!-- Circuit Connection Traces -->
+    <path
+        android:pathData="M60,79 L60,86 M42,85 L57,89 M78,85 L63,89 M58,93 L50,99 M62,93 L70,99 M50,101.5 L70,101.5"
+        android:strokeWidth="1.5"
+        android:strokeColor="#9900E5FF"
+        android:strokeLineCap="round" />
+
+    <!-- AI Intelligence Sparkle Star (Top Right) -->
+    <path
+        android:pathData="M86,30 L87.5,34.5 L92,36 L87.5,37.5 L86,42 L84.5,37.5 L80,36 L84.5,34.5 Z"
+        android:fillColor="#FFD54F" />
+
+</vector>

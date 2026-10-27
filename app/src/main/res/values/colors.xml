@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Primary Colors -->
+    <color name="primary">#1A237E</color>
+    <color name="primary_dark">#0D165A</color>
+    <color name="primary_light">#3949AB</color>
+    <color name="primary_container">#E8EAF6</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_primary_container">#1A237E</color>
+
+    <!-- Brand Secondary / Accent Colors -->
+    <color name="secondary">#00838F</color>
+    <color name="secondary_light">#E0F7FA</color>
+    <color name="secondary_dark">#006064</color>
+    <color name="accent_cyan">#00BCD4</color>
+    <color name="accent_blue">#2979FF</color>
+    <color name="accent_gold">#FFB300</color>
+
+    <!-- Background and Surface -->
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="card_stroke">#E2E8F0</color>
+    <color name="divider">#ECEFF1</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#475569</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="text_hint">#9E9E9E</color>
+
+    <!-- Semantic / Status Colors -->
+    <color name="success">#059669</color>
+    <color name="success_light">#ECFDF5</color>
+    <color name="warning">#D97706</color>
+    <color name="warning_light">#FFFBEB</color>
+    <color name="danger">#DC2626</color>
+    <color name="danger_light">#FEF2F2</color>
+    <color name="info">#2563EB</color>
+    <color name="info_light">#EFF6FF</color>
+
+    <!-- Standard Basic Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>
